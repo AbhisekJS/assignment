@@ -1,6 +1,6 @@
 import React from 'react';
 import classes from './Thumbnails.module.css';
-import { FaEdit, FaTrashAlt } from 'react-icons/fa';
+import { FaEdit, FaTrashAlt,FaRegStar } from 'react-icons/fa';
 import { useGlobalContext } from '../context';
 
 export default function Thumbnails({ items }) {
@@ -27,7 +27,7 @@ export default function Thumbnails({ items }) {
 					<FaTrashAlt />
 				</button>
 				<button className={classes.btn}>
-					<FaTrashAlt />
+					<FaRegStar />
 				</button>
 			</div>
 		</div>
